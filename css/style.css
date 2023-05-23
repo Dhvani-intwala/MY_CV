@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,4000,500,600,700 |Exo:100,200,300,400,500,600,700');
 
 /* ------------------------------------Colors*/
 
@@ -37,7 +37,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -45,15 +45,15 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 200;
-    font-size: 45px;
+    font-weight: 100;
+    font-size: 46px;
     margin-top: 50px;
     color:#fff;
 }
 
 .title{
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
@@ -83,7 +83,7 @@ header {
     padding: 0;
 }
 
-.menuitem {
+.menuitem a {
      width: 100%;
      color:#fff;
      text-decoration: none;
@@ -106,12 +106,11 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-    color: #fff;
 }
 
 /* ------------------------------------hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
